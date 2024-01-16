@@ -1,9 +1,43 @@
 body {
-	background: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-left: 1%;
+    margin-right: 1%;
 	color: #333333;
-	/*margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px;*/
-	margin: 0 auto;
-	max-width: 1000px; /*960px*/;
+}
+
+div#expand{
+	display:block;
+}
+
+h2, h3 {
+	font-weight: 500;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.logo-img {
+	border-radius: 25px;
+	width: 100px;
+	height: 100px;
+}
+
+small {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.info-message {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.info-message span{
+	border: 2px solid black;
+	font-weight: bold;
+	padding:10px;
+	display: inline-block;
 }
